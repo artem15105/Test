@@ -394,7 +394,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114129147277146790, guid: 693e43330460346d1a79c4874c16cbd2, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Final3
+      value: next
       objectReference: {fileID: 0}
     - target: {fileID: 114129147277146790, guid: 693e43330460346d1a79c4874c16cbd2, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -1301,7 +1301,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114129147277146790, guid: 693e43330460346d1a79c4874c16cbd2, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Final2
+      value: Final1
       objectReference: {fileID: 0}
     - target: {fileID: 114129147277146790, guid: 693e43330460346d1a79c4874c16cbd2, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -4853,7 +4853,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   counter: {fileID: 661137548}
-  end: []
+  end:
+  - {fileID: 647951783}
+  - {fileID: 316838704}
+  - {fileID: 1000784187}
+  - {fileID: 1081224595}
   questions:
   - {fileID: 356147776}
   - {fileID: 659037008}
@@ -8214,7 +8218,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114129147277146790, guid: 693e43330460346d1a79c4874c16cbd2, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Final1
+      value: next
       objectReference: {fileID: 0}
     - target: {fileID: 114129147277146790, guid: 693e43330460346d1a79c4874c16cbd2, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
@@ -24083,7 +24087,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114129147277146790, guid: 693e43330460346d1a79c4874c16cbd2, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Final4
+      value: next
       objectReference: {fileID: 0}
     - target: {fileID: 114129147277146790, guid: 693e43330460346d1a79c4874c16cbd2, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName

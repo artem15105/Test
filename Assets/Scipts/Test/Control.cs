@@ -7,12 +7,7 @@ using UnityEngine.UI;
 public class Control : MonoBehaviour
 {
     public Text counter;
-
     private int final = 0;
-    /*private int final2 = 0;
-    private int final3 = 0;
-    private int final4 = 0;
-    */
 
     public List<GameObject> end = new List<GameObject>();
 
@@ -27,10 +22,7 @@ public class Control : MonoBehaviour
             questions[number + 1].SetActive(true);
             number++;
 
-
             counter.text = number + 1 + "/15";
-
-
         }
         else
         {
