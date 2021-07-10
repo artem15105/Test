@@ -1,16 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class Control : MonoBehaviour
 {
     public Text counter;
 
-    private int final1 = 0;
-    private int final2 = 0;
+    private int final = 0;
+    /*private int final2 = 0;
     private int final3 = 0;
     private int final4 = 0;
+    */
+
+    public List<GameObject> end = new List<GameObject>();
 
     private int number = 0;
     public List<GameObject> questions = new List<GameObject>();
@@ -31,28 +35,27 @@ public class Control : MonoBehaviour
         else
         {
             questions[number].SetActive(false);
-            Debug.Log("Hello");
+            if (final >= 14)
+                end[0].SetActive(true);
+            else if (final >= 7)
+                end[1].SetActive(true);
+            else if (final <= 7)
+                end[2].SetActive(true);
+            else if (final == 0)
+                end[3].SetActive(true);
         }
     }
 
     public void Final1()
     {
-        final1++;
+        final++;
         next();
     }
-    public void Final2()
+    
+
+
+    public void restart()
     {
-        final2++;
-        next();
-    }
-    public void Final3()
-    {
-        final3++;
-        next();
-    }
-    public void Final4()
-    {
-        final4++;
-        next();
+        SceneManager.LoadScene("HelloWindow");
     }
 }
